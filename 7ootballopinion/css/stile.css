@@ -1,0 +1,361 @@
+html {
+  width: 100%;
+  height: 100%;
+
+
+}
+body{
+
+  width: 70%;
+  max-width: 1100px;
+  min-width: 900px;
+  height: 100%;
+  min-height: 900px;
+  margin: auto;
+  background-color: white;
+
+
+}
+header { /*contenuto in body*/
+  width: 100%;
+  height: 13%;
+
+
+  }
+  .main {
+    padding-top: 1px;
+    box-shadow: 0px 0px 5px black;
+    width: 100%;
+    background-color: rgba(226, 226, 226);
+    padding-bottom: 150px;
+
+
+  }
+
+  footer{
+
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background-color: black;
+    width: 100%;
+    min-width: 100px;
+    height: 5%;
+    min-height: 55px;
+    display: flex;
+
+  }
+
+
+
+header div {
+  height: 60%;
+  width: 100%;
+
+  }
+
+.logo{
+  max-width: 80px;
+  width: 10%;
+  height: 100%;
+
+}
+header ul {
+
+  align-items: center;
+  list-style-type: none;
+  background-color: black;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 30%;
+
+}
+ul li {
+  height: 100%;
+  font-family: arial;
+
+
+}
+ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+ul li a:hover {
+  background-color: #333333;
+}
+.instali{margin-left: auto;}
+.instagram{
+  width: 22px;
+  height: 22px;
+}
+.tiktok{
+  width: 25px;
+  height: 25px;
+}
+footer div{
+
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: arial;
+  width: 100%;
+  height: 80%;
+  margin: auto;
+
+}
+
+.sezione{
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid #D1A000;
+  font-size: 38px;
+  width: 97%;
+  margin: 12px auto;
+  color: black;
+  letter-spacing: -2px;
+  padding-left: 1%;
+
+
+}
+.news{
+  width: 100%;
+  height: 310px;
+  margin: 30px auto;
+  display: flex;
+  overflow: hidden;
+  position:relative;
+
+}
+.notizia{
+  border: 1px solid black;
+  width: 19.4%;
+  height: 100%;
+  text-decoration: none;
+  margin-left: 0.5%;
+  position:relative;
+  flex-shrink: 0;
+  transition: transform 0.4s;
+  overflow: hidden;
+
+}
+
+.news a img{
+
+  width: 100%;
+  margin: 0;
+  height: 60%;
+  position:relative;
+
+
+}
+#op{width: 100%;
+margin: 0;
+height: 100%;
+position:relative;}
+.testonews{
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-color: black;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  transition: height 0.3s;
+}
+
+.titoletto{
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 17px;
+  line-height: 0.9;
+  letter-spacing: -0.8px;
+  font-family: "Roboto Serif" ;
+  font-weight: 600;
+  color: white;
+
+
+
+}
+.descrizione{
+  width: 100%;
+  display: none;
+font-family: "Roboto Serif";
+font-size: 11px;
+letter-spacing: -0.2px;
+font-weight: 100;
+position: relative;
+color: white;
+}
+.categoria{
+  margin: 0;
+  width: 100%;
+position: absolute;
+font-family: "Roboto Serif";
+font-size: 11px;
+letter-spacing: -0.2px;
+bottom: 10px;
+font-weight: 500;
+
+}
+.opinion {
+  color: gold; /* giallo oro acceso */
+}
+
+.time {
+  color: white;
+}
+.testonews:hover {
+  height: 60%;
+
+}
+.testonews:hover .descrizione {
+  display: block;
+}
+
+#left{ position: absolute;
+        left: 0;
+        bottom:0;
+        background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0));
+        color: white;
+        border: none;
+        padding:13px;
+        font-size: 25px;
+        transition: 0.3s;
+        height: 100%;
+
+
+      }
+#left:hover{
+  background: linear-gradient(
+to right,
+rgba(209,160,0,1),
+rgba(209,160,0,0.4),
+rgba(209,160,0,0)
+);
+              color: black;  }
+#right{
+        position: absolute;
+        right: 0;
+        bottom:0;
+        height: 100%;
+        background: linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0));
+        color: white;
+        border: none;
+        padding:13px;
+        font-size: 25px;
+        transition: 0.3s;
+      }
+#right:hover{
+        background: linear-gradient(
+      to left,
+      rgba(209,160,0,1),
+      rgba(209,160,0,0.4),
+      rgba(209,160,0,0)
+      );
+                    color: black;
+                   }
+
+
+
+
+  .risultati{
+    width: 100%;
+    display: flex;
+  }
+  .giornata{width: 49%;
+          margin:  0px auto;
+          background-color: rgba(255, 255,255, 0.5);
+          font-size: 14px;
+          border-collapse: collapse;
+
+
+
+  }
+  .partita{width: 100%;
+            height: 60px;
+            border-top: 1px solid rgba(0,0,0,0.4);
+            border-bottom: 1px solid rgba(0,0,0,0.4);
+            text-align: center;
+            font-family:arial;
+            transition: 0.4s;
+            
+
+
+  }
+.partita:hover{background-color: rgba(5, 120, 255,0.8);
+                color:white;}
+  .logosquadra{
+    width: 28px;
+    height: 28px;
+  }
+  .tabellino{
+    display: none;
+  }
+
+  .tabellino td{
+    font-family:arial;
+    height: 30px;
+    padding-left: 5px;
+    background-color: white;
+
+  }
+
+  .tabellino td:nth-child(2){text-align: center;}
+  .pallone{width: 15px;height: 15px;}
+
+  .partita1{width: 100%;
+            height: 60px;
+            border-top: 1px solid rgba(0,0,0,0.4);
+            border-bottom: 1px solid rgba(0,0,0,0.4);
+            text-align: center;
+            font-family:arial;
+            transition: 0.4s;
+
+
+  }
+
+.partita1:hover{background-color:rgba(61, 25, 91, 0.8) ;
+                color:white;}
+
+.partita2{width: 100%;
+                          height: 60px;
+                          border-top: 1px solid rgba(0,0,0,0.4);
+                          border-bottom: 1px solid rgba(0,0,0,0.4);
+                          text-align: center;
+                          font-family:arial;
+                          transition: 0.4s;
+
+
+                }
+
+.partita2:hover{background-color:rgba(255, 75, 68, 0.8) ;
+                              color:white;}
+.partita3{width: 100%;
+                                                        height: 60px;
+                                                        border-top: 1px solid rgba(0,0,0,0.4);
+                                                        border-bottom: 1px solid rgba(0,0,0,0.4);
+                                                        text-align: center;
+                                                        font-family:arial;
+                                                        transition: 0.4s;
+
+
+                                              }
+
+.partita3:hover{background-color:rgba(209, 2, 20, 0.8) ;
+                                                            color:white;}
+
+
+.risultati1{      margin-top: 20px;
+                  width: 100%;
+                  display: flex;
+                }
